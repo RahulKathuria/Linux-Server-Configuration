@@ -116,7 +116,7 @@ application.secret_key = 'supersecretkey'
 -    `# GRANT ALL ON SCHEMA public TO catalog;`
     
 -   Log out from PostgreSQL:  `# \q`. Then return to the  grader  user:  `$ exit`
-31. Use ``` sudo nano``` to edit files on the server by chaging every occurrence of ```engine = create_engine('sqlite:///restaurantmenu.db') ``` to ```engine = create_engine('postgresql://catalog:rahulkathuria@localhost/catalog```
+31. Use ``` sudo nano``` to edit files on the server by chaging every occurrence of ```engine = create_engine('sqlite:///restaurantmenu.db') ``` to ```engine = create_engine('postgresql://catalog:rahulkathuria@localhost/catalog)```
 32. Now run ```$ lotsofmenu.py``` to populate the database with the list items.
-33. Now, at the end we have to restart the apache server by ``` sudo service apache2 restart```.
+33. Now, at the end we have to restart the apache server by ``` sudo service apache2 restart```
 34. Now open the browser and type 35.154.240.35 and you are ready to go.
