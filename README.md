@@ -120,3 +120,9 @@ application.secret_key = 'supersecretkey'
 32. Now run ```$ lotsofmenu.py``` to populate the database with the list items.
 33. Now, at the end we have to restart the apache server by ``` sudo service apache2 restart```
 34. Now open the browser and type 35.154.240.35 and you are ready to go.
+
+
+## Sources used :
+ 1. [Flask Documentation](http://flask.pocoo.org/docs/0.12/installation/)
+ 2. [Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-set-up-apache-virtual-hosts-on-ubuntu-14-04-lts)
+ 3. Stack Overflow
