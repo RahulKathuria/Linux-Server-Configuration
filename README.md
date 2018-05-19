@@ -15,7 +15,7 @@
 
 ### Link to [Item Catalog](https://github.com/RahulKathuria/Item-Catalog)
 
-* Ip Address: 35.154.240.35
+* Ip Address: 13.232.62.22
 * SSH Port : 2200
 ## Steps to configure the server 
 1. Create an account on Amazon Web Services.
@@ -23,7 +23,7 @@
 3. Download the private key and move it to the .ssh folder.
 4. To make the public key usable and secure, input 
 	```  $ chmod 600 ~/.ssh/AWSKey.pem```
-5. Now login into the server using ``` $ ssh -i ~/.ssh/AWSKey.pem ubuntu@35.154.240.35```
+5. Now login into the server using ``` $ ssh -i ~/.ssh/AWSKey.pem ubuntu@13.232.62.22```
 6. Now we have to add a new user grader after becoming the root user. ``` $ sudo adduser grader```  will add a new user named grader.
 7. To give sudo access to the grader, make a new file under etc directory using this ``` 
 $ sudo nano /etc/sudoers.d/grader``` and add this text to that file : ```grader ALL=(ALL:ALL) ALL```.
